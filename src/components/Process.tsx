@@ -1,18 +1,22 @@
 import extrusionImg from "@/assets/process/extrusion.jpg";
-import laminationImg from "@/assets/process/lamination.jpg";
+import ppImg from "@/assets/process/pp.jpg";
 import printingImg from "@/assets/process/printing.jpg";
 import inspectionImg from "@/assets/process/inspection.jpg";
-
+import cuttingImg from "@/assets/process/Cutting.png";
+import weavingImg from "@/assets/process/weaving.png";
+import packingImg from "@/assets/process/packing.png";
+import inspectImg from "@/assets/process/Checking.png";
+import lamImg from "@/assets/process/llam.jpeg";
 const processSteps = [
-  { step: "01", title: "PP Granules", description: "High-quality raw materials selection" },
-  { step: "02", title: "Extrusion", description: "Converting granules into fabric", image: extrusionImg },
-  { step: "03", title: "Lamination", description: "Adding protective coating layers", image: laminationImg },
-  { step: "04", title: "Weaving", description: "Creating strong fabric structure" },
-  { step: "05", title: "Cutting", description: "Precise cutting to specifications" },
-  { step: "06", title: "Printing", description: "Custom branding and labels", image: printingImg },
-  { step: "07", title: "Stitching", description: "Expert assembly and construction" },
-  { step: "08", title: "Inspection", description: "Rigorous quality control checks", image: inspectionImg },
-  { step: "09", title: "Packing", description: "Secure packaging for delivery" },
+  { step: "01", title: "Raw material", description: "We use PP virgin rafia grade and other additives", image: ppImg  },
+  { step: "02", title: "Extrusion", description: "Converting granules into continuous profile", image: extrusionImg },
+   { step: "03", title: "Weaving", description: "Weave into fabric roll", image: weavingImg },
+  { step: "04", title: "Lamination", description: "Adding protective coating layers" ,image: lamImg  },
+  { step: "05", title: "Cutting", description: "Precise cutting to specifications",image: cuttingImg },
+  { step: "06", title: "Printing", description: "Custom branding and Primary details", image: inspectionImg },
+  { step: "07", title: "Stitching", description: "Expert assembly and construction",image: printingImg  },
+   { step: "08", title: "Inspection", description: "Rigorous quality control checks",image: inspectImg  },
+  { step: "09", title: "Packing", description: "Bale press packaging for delivery" ,image: packingImg  },
 ];
 
 const Process = () => {

@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -52,11 +52,11 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4">Our Products</h4>
             <ul className="space-y-2 text-sm">
-              <li className="opacity-75">U Panel FIBC</li>
-              <li className="opacity-75">Sling FIBC</li>
-              <li className="opacity-75">Baffle FIBC</li>
-              <li className="opacity-75">Ventilated FIBC</li>
-              <li className="opacity-75">Circular FIBC</li>
+              <li className="opacity-75">U Panel </li>
+              <li className="opacity-75">Full loop</li>
+              <li className="opacity-75">Baffle</li>
+              <li className="opacity-75">Ventilated</li>
+              <li className="opacity-75">Circular</li>
             </ul>
           </div>
 
@@ -68,17 +68,20 @@ const Footer = () => {
               <li className="opacity-75">Chennai, Tamil Nadu, India</li>
             </ul>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
+              <a href="https://www.facebook.com/cosmoholderfibc?mibextid=ZbWKwL" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
+              <a href="https://www.instagram.com/cosmo_holder/" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
+              <a href="https://www.linkedin.com/company/cosmo-holder/" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
+              <a href="https://x.com/CosmoHolder" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
                 <Twitter size={20} />
+              </a>
+              <a href="https://m.youtube.com/watch?v=0j5aaUawx50&list=PLRAZYXSdyaFr-_VoX6qCjLtJrd_I9rdPr" className="opacity-75 hover:opacity-100 hover:text-primary transition-all">
+              <Youtube size={20} />
               </a>
             </div>
           </div>

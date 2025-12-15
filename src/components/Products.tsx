@@ -1,37 +1,38 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import uPanelImg from "@/assets/products/u-panel.png";
-import slingImg from "@/assets/products/sling.png";
+import uPanelImg from "@/assets/products/u.jpeg";
+import fullImg from "@/assets/products/fulloop.png";
 import baffleImg from "@/assets/products/baffle.jpg";
-import ventilatedImg from "@/assets/products/ventilated.png";
+import ventilatedImg from "@/assets/products/ventil.jpeg";
 import circularImg from "@/assets/products/circular.png";
 
 const products = [
+   {
+    name: "Circular ",
+    image: circularImg,
+    description: "Tubular construction offering excellent shape retention and uniform load distribution for various materials.",
+  },
   {
-    name: "U Panel FIBC",
+    name: "U Panel ",
     image: uPanelImg,
     description: "Versatile and cost-effective design with three fabric panels forming a U-shape. Ideal for a wide range of applications.",
   },
   {
-    name: "Sling FIBC",
-    image: slingImg,
+    name: "Full loop ",
+    image: fullImg,
     description: "Features lifting loops integrated into the bag body for enhanced strength and durability during transportation.",
   },
   {
-    name: "Baffle FIBC",
+    name: "Baffle",
     image: baffleImg,
     description: "Internal baffles maintain cubic shape, maximizing storage space and improving stability during stacking.",
   },
   {
-    name: "Ventilated FIBC",
+    name: "Ventilated ",
     image: ventilatedImg,
     description: "Breathable design with ventilation strips, perfect for products requiring air circulation like agricultural goods.",
   },
-  {
-    name: "Circular FIBC",
-    image: circularImg,
-    description: "Tubular construction offering excellent shape retention and uniform load distribution for various materials.",
-  },
+ 
 ];
 
 const Products = () => {
