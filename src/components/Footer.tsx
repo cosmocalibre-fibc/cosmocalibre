@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex flex-col mb-4">
-              <span className="text-3xl font-bold tracking-tight">COSMO</span>
+              <span className="text-3xl font-bold tracking-tight dark:text-white">COSMO</span>
               <span className="text-sm font-semibold text-primary tracking-widest">CALIBRE</span>
             </div>
             <p className="text-sm opacity-90 mb-4">
