@@ -1,10 +1,10 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import uPanelImg from "@/assets/products/u.jpeg";
-import fullImg from "@/assets/products/fulloop.png";
-import baffleImg from "@/assets/products/baffle.jpg";
-import ventilatedImg from "@/assets/products/ventil.jpeg";
-import circularImg from "@/assets/products/circular.png";
+import uPanelImg from "/cosmo-bags-rebrand/assets/products/u.jpeg";
+import fullImg from "/cosmo-bags-rebrand/assets/products/fulloop.png";
+import baffleImg from "/cosmo-bags-rebrand/assets/products/baffle.jpg";
+import ventilatedImg from "/cosmo-bags-rebrand/assets/products/ventil.jpeg";
+import circularImg from "/cosmo-bags-rebrand/assets/products/circular.png";
 
 const products = [
    {
