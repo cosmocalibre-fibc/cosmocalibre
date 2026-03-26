@@ -6,11 +6,11 @@ const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const images = [
-    { src: "/bbo.png", alt: "BBQ Product" },
-    { src: "/bag.png", alt: "Premium Jumbo Bags" },
-    { src: "/contain.png", alt: "Cosmo Bag 3" },
-    { src: "/bag4.png", alt: "Bag 4" },
-  ];
+  { src: "/cosmo-bags-rebrand/bbo.png", alt: "BBQ Product" },
+  { src: "/cosmo-bags-rebrand/bag.png", alt: "Premium Jumbo Bags" },
+  { src: "/cosmo-bags-rebrand/contain.png", alt: "Cosmo Bag 3" },
+  { src: "/cosmo-bags-rebrand/bag4.png", alt: "Bag 4" },
+];
 
   const scrollToContact = () => {
     const element = document.getElementById("contact");
