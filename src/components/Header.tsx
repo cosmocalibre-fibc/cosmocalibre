@@ -28,7 +28,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <a href="/" className="flex items-center">
-              <img src="/cosmo-bags-rebrand/cosmo.png" alt="Cosmo Calibre" className="h-14 md:h-20 object-contain" />
+              <img src="/cosmocalibre/cosmo.png" alt="Cosmo Calibre" className="h-14 md:h-20 object-contain" />
             </a>
           </div>
 
